@@ -1,0 +1,50 @@
+header #logo {
+    height: 50px;
+    width: 50px;
+}
+
+.notify {
+    color: var(--notify);
+}
+
+.bar {
+    background-color: #e5e5e5;
+}
+
+
+
+
+
+.debug aside {
+    background-color: #051e34;
+    height: calc(100vh - 70px);
+    width: 75px;
+}
+
+
+
+.debug aside nav > div:first-child {
+    min-height: auto;
+}
+
+.debug i {
+    height: 25px;
+    width: 25px;
+}
+
+.debug .main-page {
+    background-color: lightcoral;
+    width: calc(100vw - 75px);
+}
+
+@media all and (min-width: 990px) {
+
+    .debug .main-page {
+        background-color: lightcoral;
+        width: calc(100vw - 140px);
+    }
+
+    .debug aside {
+        width: 140px;
+    }
+}
