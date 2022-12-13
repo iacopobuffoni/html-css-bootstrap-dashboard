@@ -27,7 +27,6 @@ header #logo {
 }
 
 .debug .main-page {
-    background-color: lightcoral;
     width: calc(100vw - 75px);
     height: calc(100vh - 70px);
     overflow: auto;
@@ -70,7 +69,6 @@ header #logo {
 @media all and (min-width: 990px) {
 
     .debug .main-page {
-        background-color: lightcoral;
         width: calc(100vw - 140px);
     }
 

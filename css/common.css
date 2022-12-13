@@ -18,7 +18,7 @@ table span.plan.bg-yellow {
 }
 
 table tbody tr:first-child {
-    background-color: lightgray;
+    background-color: #ececec;
 }
 
 .border-gray {
