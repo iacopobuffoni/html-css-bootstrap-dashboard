@@ -2,4 +2,29 @@
     --white: #ffffff;
     --notify: #ff8f00;
     --lightgray: #e5e5e5;
+
+}
+
+table span.plan.bg-green {
+    background-color: green;
+}
+
+table span.plan.bg-red {
+    background-color: red;
+}
+
+table span.plan.bg-yellow {
+    background-color: #ffc107;
+}
+
+table tbody tr:first-child {
+    background-color: lightgray;
+}
+
+.border-gray {
+    border-color: lightgray;
+}
+
+.stats {
+    width: 100%;
 }

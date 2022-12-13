@@ -52,6 +52,21 @@ header #logo {
     background-color: #1b72e8;
 }
 
+.debug table img {
+    height: 35px;
+    width: 35px;
+}
+
+.debug table span.plan {
+    border-radius: 8px;
+    padding: 1px 5px;
+    font-size: 14px;
+}
+
+.stats {
+    width: 100%;
+}
+
 @media all and (min-width: 990px) {
 
     .debug .main-page {
