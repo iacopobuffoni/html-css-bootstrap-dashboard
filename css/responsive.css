@@ -1,0 +1,10 @@
+@media all and (min-width: 990px) {
+
+    .main-page {
+        width: calc(100vw - 140px);
+    }
+
+    aside {
+        width: 140px;
+    }
+}

@@ -3,36 +3,24 @@ header #logo {
     width: 50px;
 }
 
-.notify {
-    color: var(--notify);
-}
-
-.bar {
-    background-color: #e5e5e5;
-}
-
-
-
-
-
-.debug aside {
+aside {
     background-color: #051e34;
     height: calc(100vh - 70px);
     width: 75px;
 }
 
-.debug i {
+aside i, table i {
     height: 25px;
     width: 25px;
 }
 
-.debug .main-page {
+.main-page {
     width: calc(100vw - 75px);
     height: calc(100vh - 70px);
     overflow: auto;
 }
 
-.debug .plan {
+.plan {
     display: inline-block;
     background-color: #165bba;
     border-radius: 20px;
@@ -40,23 +28,19 @@ header #logo {
     font-size: 15px;
 }
 
-.debug #plus {
+#plus {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     text-align: left;
 }
 
-.debug .header-main {
-    background-color: #1b72e8;
-}
-
-.debug table img {
+table img {
     height: 35px;
     width: 35px;
 }
 
-.debug table span.plan {
+table span.plan {
     border-radius: 8px;
     padding: 1px 5px;
     font-size: 14px;
@@ -64,15 +48,4 @@ header #logo {
 
 .stats {
     width: 100%;
-}
-
-@media all and (min-width: 990px) {
-
-    .debug .main-page {
-        width: calc(100vw - 140px);
-    }
-
-    .debug aside {
-        width: 140px;
-    }
 }

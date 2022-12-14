@@ -5,6 +5,18 @@
 
 }
 
+.notify {
+    color: var(--notify);
+}
+
+.bar {
+    background-color: #e5e5e5;
+}
+
+.header-main {
+    background-color: #1b72e8;
+}
+
 table span.plan.bg-green {
     background-color: green;
 }
